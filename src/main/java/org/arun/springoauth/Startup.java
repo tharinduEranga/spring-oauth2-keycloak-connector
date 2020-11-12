@@ -14,10 +14,10 @@ import org.springframework.boot.autoconfigure.security.servlet.UserDetailsServic
  * Note: If you are using Spring 1.x you may exclude only {@link SecurityAutoConfiguration}.
  */
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class,
-                                  UserDetailsServiceAutoConfiguration.class})
+        UserDetailsServiceAutoConfiguration.class})
 public class Startup {
 
-  public static void main(String[] args) {
-    SpringApplication.run(Startup.class, args);
-  }
+    public static void main(String[] args) {
+        SpringApplication.run(Startup.class, args);
+    }
 }
